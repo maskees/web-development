@@ -1,0 +1,388 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    background-color: #0f1111;
+    color: white;
+    justify-content: space-evenly;
+    position: sticky;
+}
+/* .navbar-logo{
+    width: 113px;
+    height: 50px;
+} */
+.navbar-logo{
+    width: 113px;
+    height:50px;
+    background-image:url(amazon_logo.png);
+    background-size: cover;
+    background-position: relative;
+
+    }
+    .border{
+        border: 1.5px solid transparent;
+    }
+    .border:hover{
+        border: 1.5px solid white;
+    }
+    .location{
+        margin-left: 2px;
+
+        display: flex;
+    }
+    .location .icon{
+        font-size: 14px;
+        margin-right: 5px;
+        margin-top: 18px;
+
+    }
+    #location{
+        font-size: 12px;
+        color: #CCCCCC;
+
+    }
+    #india{
+        font-size: 14px;
+        font: weight 100px;;
+        color: #FFFFFF;
+    }
+    .navbar-search{
+        display: flex;
+        justify-content: space-evenly;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+        margin-left: 10px;
+       width: 600px;
+       
+        
+    }
+    .navbar-search:hover{
+        border: 2px solid orange;
+        padding: 0;
+    }
+    .selecting{
+        border: 1px solid #CCCCCC;
+        background-color: #f3f3f3;
+        width: 50px;
+       border-top-left-radius: 5px;
+       border-bottom-left-radius: 5px;
+        text-align: center;
+        padding: 5px;
+    
+    }
+    #search_amazon{
+        background-color: #f0f2f2;
+        border: none;
+        
+        padding: 5px;
+        width: 100%;
+        font-size: 14px;
+    }
+    #search-icon div{
+    
+        background-color: rgb(255, 162, 0);
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        height: 40px;
+        width: 45px;
+        justify-content: center;
+       border-top-right-radius: 5px;
+       border-bottom-right-radius: 5px;
+       color: black;
+    }
+    .language1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+
+    }
+    .language-in{
+        display: flex;
+        align-items: center;
+        margin-left: 3px;
+        background-color: #0f1111;
+        color: white;
+        border: none;
+    }
+    .sign{
+       
+        font-size: 14px;
+    }
+    .accounts{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .cart-icon{
+        font-size: 30px;
+    }
+    .cart-text{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .panel{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #232f3e;
+        color: white;
+        height: 40px;
+    }
+.panel-options{
+    
+    width: 70%;
+}
+.panel-options p{
+    display: inline;
+    margin:10px;
+    font-size: 0.85rem;
+}
+.electronics-panel{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+/* main section */
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 400px;
+
+}
+.center-panel{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    z-index: 1;
+    position: absolute; 
+    text-decoration: none;
+    bottom: 300px;
+    margin-left: 80px;
+}
+.hero-section .center-panel a{
+    color: rgb(0, 168, 120);
+    text-decoration: none;
+}
+/* shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   background-color: #e2e7e6;
+    
+    /* margin-top: 10px; */
+}
+.box{
+    border: 2px solid white;
+    height: 330px;
+    background-color: white;
+    width: 330px;
+    padding: 10px;
+    margin: 8px;
+}
+.box1 .div1{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 40px;
+  color: #0f1111;
+   
+}
+.box1 .div2{
+    height: 240px;
+    margin: 10px;
+    background-image: url(box5_image.jpg);
+    background-size: cover;
+}
+.box1 span a{
+    color: rgb(0, 168, 120);
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.box2 .div1{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 40px;
+  color: #0f1111;
+    margin-left: 10px;
+}
+.box2 .div2{
+    height: 240px;
+    margin: 10px;
+    background-image: url(box3_image.jpg);
+    background-size: cover;
+}
+.box2 span a{
+    color: rgb(0, 168, 120);
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.box3 .div1{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 40px;
+  color: #0f1111;
+    margin-left: 10px;
+}
+.box3 .div2{
+    height: 240px;
+    margin: 10px;
+    background-image: url(box4_image.jpg);
+    background-size: cover;
+}
+.box3 span a{
+    color: rgb(0, 168, 120);
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.box4 .div1{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 40px;
+  color: #0f1111;
+    margin-left: 10px;
+}
+.box4 .div2{
+    height: 240px;
+    margin: 10px;
+    background-image: url(box6_image.jpg);
+    background-size: cover;
+}
+.box4 span a{
+    color: rgb(0, 168, 120);
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.box5 .div1{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 40px;
+  color: #0f1111;
+    margin-left: 10px;
+}
+.box5 .div2{
+    height: 240px;
+    margin: 10px;
+    background-image: url(box7_image.jpg);
+    background-size: cover;
+}
+.box5 span a{
+    color: rgb(0, 168, 120);
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.box6 .div1{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 40px;
+  color: #0f1111;
+    margin-left: 10px;
+}
+.box6 .div2{
+    height: 240px;
+    margin: 10px;
+    background-image: url(box8_image.jpg);
+    background-size: cover;
+}
+.box6 span a{
+    color: rgb(0, 168, 120);
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.box7 .div1{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 40px;
+  color: #0f1111;
+    margin-left: 10px;
+}
+.box7 .div2{
+    height: 240px;
+    margin: 10px;
+    background-image: url(Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg);
+    background-size: cover;
+}
+.box7 span a{
+    color: rgb(0, 168, 120);
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.box8 .div1{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 40px;
+  color: #0f1111;
+    margin-left: 10px;
+}
+.box8 .div2{
+    height: 240px;
+    margin: 10px;
+    background-image:url(Gaming_zone_1x._SY304_CB540253513_.jpg) ;
+    background-size: cover;
+
+}
+.box8 span a{
+    color: rgb(0, 168, 120);
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+/* footer */
+.footer-panel1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    position: static;
+}
+.footer-panel2{
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 30px;
+    background-color: #232f3e;
+    color: white;
+    height: 300px;
+    position: static;
+}
+.footer-panel2 ul li{
+    list-style-type: none;
+    font-size: 14px;
+    margin: 10px;
+    margin-left: 0PX;
+}
+.footer-panel2 h3{
+    font-size: 16px;
+    margin: 10px;
+    margin-left: 0px;
+}
